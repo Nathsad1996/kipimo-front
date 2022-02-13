@@ -1,0 +1,84 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* login page style */
+.card {
+    @apply rounded-2xl hover:shadow-lg my-48 w-1/3 border-2 p-5
+}
+
+.card-title{
+    @apply text-4xl text-center mb-10
+}
+
+.input-login{
+    @apply px-4 py-2 rounded-lg border-2 mb-2 w-full text-lg
+}
+
+.btn {
+    @apply text-xl text-white px-4 bg-blue-500 hover:bg-blue-700 rounded-lg py-2 mb-2 mt-7 w-full transition ease-in-out duration-500
+}
+
+/* menubar style */
+
+.menu-item{
+    @apply text-lg inline mx-3 hover:text-white cursor-pointer transition ease-in-out duration-500
+}
+
+.menu-brand{
+    @apply text-2xl py-4 cursor-pointer
+}
+
+.menu-bar{
+    @apply bg-blue-500 items-center px-10
+}
+
+.btn-menu{
+    @apply bg-red-400 px-4 py-1 rounded-lg hover:bg-red-700 transition ease-in-out duration-500
+}
+
+
+/* home style */
+
+.home-card{
+    @apply  shadow border-4 cursor-pointer w-96 flex rounded-2xl justify-between hover:shadow-lg  m-2 py-2 px-5
+}
+
+/* map style */
+
+.map-container{
+    @apply w-3/4 border-2 m-2 rounded-xl p-2 bg-gray-300
+}
+
+.station-info{
+    @apply w-1/4 border-8 m-2 rounded-xl p-3 flex flex-col items-center
+}
+
+.btn-station-info {
+    @apply w-full mt-10 rounded-lg bg-blue-500 text-xl px-4 py-2 text-white hover:bg-blue-700 transition ease-in-out duration-500
+}
+
+/* statio style */
+
+.station-detail{
+    @apply w-3/4 border-8 m-2 p-2 rounded-2xl text-center text-4xl bg-cyan-500
+}
+
+.station-card {
+    @apply w-1/4 border-8 m-2 p-3 rounded-2xl flex flex-col items-center
+}
+
+.station-btn-action{
+    @apply text-lg  text-white m-1 rounded-xl px-4 w-full py-1 transition ease-in-out duration-500
+}
+
+
+/* report style */
+
+.btn-search{
+    @apply px-4 py-2 text-lg bg-blue-500 hover:bg-blue-700 rounded-xl text-white transition ease-in-out duration-500
+}
+
+.select-station{
+    @apply text-lg px-8 py-2 border-2 mr-5 rounded-xl
+}
